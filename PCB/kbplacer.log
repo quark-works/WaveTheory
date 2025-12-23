@@ -1,0 +1,742 @@
+[kbplacer_plugin_action.py:69]: Plugin version: 0.14.dev31+g67ef699
+[kbplacer_plugin_action.py:70]: Python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_plugin_action.py:71]: KiCad version: 9.0.4 with 4.2.2a1 osx-cocoa (phoenix) wxWidgets 3.2.8
+[kbplacer_dialog.py:631]: Language: en
+[kbplacer_plugin_action.py:79]: GUI state: {"layout_path": "", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "MX{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -3.2, "y": 2.9, "orientation": 270.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:366]: Set key 1U distance: 19050000/19050000
+[key_placer.py:128]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'ROW0', 'COL0'}): ['MX1', 'MX13', 'MX25', 'MX37'], frozenset({'ROW0', 'COL1'}): ['MX2', 'MX14', 'MX26', 'MX38'], frozenset({'ROW0', 'COL2'}): ['MX3', 'MX15', 'MX27', 'MX39'], frozenset({'ROW0', 'COL3'}): ['MX4', 'MX16', 'MX28', 'MX40'], frozenset({'ROW0', 'COL4'}): ['MX5', 'MX17', 'MX29', 'MX41'], frozenset({'ROW0', 'COL5'}): ['MX6', 'MX18', 'MX30', 'MX42'], frozenset({'ROW0', 'COL6'}): ['MX7', 'MX19', 'MX31', 'MX43'], frozenset({'ROW0', 'COL7'}): ['MX8', 'MX20', 'MX32', 'MX44'], frozenset({'ROW0', 'COL8'}): ['MX9', 'MX21', 'MX33', 'MX45'], frozenset({'ROW0', 'COL9'}): ['MX10', 'MX22', 'MX34', 'MX46'], frozenset({'COL10', 'ROW0'}): ['MX11', 'MX23', 'MX35', 'MX47'], frozenset({'ROW0', 'COL11'}): ['MX12', 'MX24', 'MX36', 'MX48']})
+[key_placer.py:132]: Diodes by switch: {'MX48': ['D49'], 'MX47': ['D48'], 'MX46': ['D47'], 'MX45': ['D45'], 'MX44': ['D44'], 'MX43': ['D43'], 'MX42': ['D42'], 'MX41': ['D41'], 'MX40': ['D40'], 'MX39': ['D39'], 'MX38': ['D38'], 'MX37': ['D37'], 'MX36': ['D36'], 'MX35': ['D35'], 'MX34': ['D34'], 'MX33': ['D33'], 'MX32': ['D32'], 'MX31': ['D31'], 'MX30': ['D30'], 'MX29': ['D29'], 'MX28': ['D28'], 'MX27': ['D27'], 'MX26': ['D26'], 'MX25': ['D25'], 'MX24': ['D24'], 'MX23': ['D23'], 'MX22': ['D22'], 'MX21': ['D21'], 'MX20': ['D20'], 'MX19': ['D19'], 'MX18': ['D18'], 'MX17': ['D17'], 'MX16': ['D16'], 'MX15': ['D15'], 'MX14': ['D14'], 'MX13': ['D13'], 'MX12': ['D12'], 'MX11': ['D11'], 'MX10': ['D10'], 'MX9': ['D9'], 'MX8': ['D8'], 'MX7': ['D7'], 'MX6': ['D6'], 'MX5': ['D5'], 'MX4': ['D4'], 'MX3': ['D3'], 'MX2': ['D2'], 'MX1': ['D1']}
+[board_modifier.py:68]: Searching for MX1 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[key_placer.py:562]: Looking for connection template between MX1 and other elements
+[board_modifier.py:102]: Getting MX1 footprint position: (33528969, 32385058)
+[key_placer.py:606]: Got connection template: Track [(-3199999, 1250000) (-3199999, -1930001)], Track [(-3199999, -1930001) (-3809999, -2540001)]
+[key_placer.py:1003]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=-3.2, y=2.9, orientation=270.0, side=<Side.BACK: 'Back'>), template_path='')]
+[key_placer.py:779]: Placing additional elements for MX1
+[board_modifier.py:102]: Getting MX1 footprint position: (33528969, 32385058)
+[board_modifier.py:79]: Searching for optional ST1 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX2
+[board_modifier.py:102]: Getting MX2 footprint position: (52393647, 35036074)
+[board_modifier.py:79]: Searching for optional ST2 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX3
+[board_modifier.py:102]: Getting MX3 footprint position: (72832569, 26486758)
+[board_modifier.py:79]: Searching for optional ST3 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX4
+[board_modifier.py:102]: Getting MX4 footprint position: (92194047, 25600474)
+[board_modifier.py:79]: Searching for optional ST4 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX5
+[board_modifier.py:102]: Getting MX5 footprint position: (110561669, 31789258)
+[board_modifier.py:79]: Searching for optional ST5 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX6
+[board_modifier.py:102]: Getting MX6 footprint position: (129094669, 36798558)
+[board_modifier.py:79]: Searching for optional ST6 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX7
+[board_modifier.py:102]: Getting MX7 footprint position: (186826411, 36756050)
+[board_modifier.py:79]: Searching for optional ST7 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX8
+[board_modifier.py:102]: Getting MX8 footprint position: (205360411, 31746850)
+[board_modifier.py:79]: Searching for optional ST8 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX9
+[board_modifier.py:102]: Getting MX9 footprint position: (223727411, 25558850)
+[board_modifier.py:79]: Searching for optional ST9 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX10
+[board_modifier.py:102]: Getting MX10 footprint position: (243089411, 26443850)
+[board_modifier.py:79]: Searching for optional ST10 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX11
+[board_modifier.py:102]: Getting MX11 footprint position: (263528411, 34993750)
+[board_modifier.py:79]: Searching for optional ST11 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX12
+[board_modifier.py:102]: Getting MX12 footprint position: (282392292, 32342753)
+[board_modifier.py:79]: Searching for optional ST12 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX13
+[board_modifier.py:102]: Getting MX13 footprint position: (30878131, 51249352)
+[board_modifier.py:79]: Searching for optional ST13 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX14
+[board_modifier.py:102]: Getting MX14 footprint position: (49742368, 53900958)
+[board_modifier.py:79]: Searching for optional ST14 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX15
+[board_modifier.py:102]: Getting MX15 footprint position: (70181168, 45351258)
+[board_modifier.py:79]: Searching for optional ST15 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX16
+[board_modifier.py:102]: Getting MX16 footprint position: (89543069, 44465458)
+[board_modifier.py:79]: Searching for optional ST16 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX17
+[board_modifier.py:102]: Getting MX17 footprint position: (107910669, 50653758)
+[board_modifier.py:79]: Searching for optional ST17 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX18
+[board_modifier.py:102]: Getting MX18 footprint position: (126443596, 55662625)
+[board_modifier.py:79]: Searching for optional ST18 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX19
+[board_modifier.py:102]: Getting MX19 footprint position: (189477530, 55620447)
+[board_modifier.py:79]: Searching for optional ST19 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX20
+[board_modifier.py:102]: Getting MX20 footprint position: (208011530, 50611247)
+[board_modifier.py:79]: Searching for optional ST20 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX21
+[board_modifier.py:102]: Getting MX21 footprint position: (226378530, 44423247)
+[board_modifier.py:79]: Searching for optional ST21 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX22
+[board_modifier.py:102]: Getting MX22 footprint position: (245740530, 45308247)
+[board_modifier.py:79]: Searching for optional ST22 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX23
+[board_modifier.py:102]: Getting MX23 footprint position: (266179530, 53858147)
+[board_modifier.py:79]: Searching for optional ST23 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX24
+[board_modifier.py:102]: Getting MX24 footprint position: (285043411, 51207150)
+[board_modifier.py:79]: Searching for optional ST24 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX25
+[board_modifier.py:102]: Getting MX25 footprint position: (28226731, 70113852)
+[board_modifier.py:79]: Searching for optional ST25 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX26
+[board_modifier.py:102]: Getting MX26 footprint position: (47091269, 72765558)
+[board_modifier.py:79]: Searching for optional ST26 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX27
+[board_modifier.py:102]: Getting MX27 footprint position: (67530068, 64216058)
+[board_modifier.py:79]: Searching for optional ST27 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX28
+[board_modifier.py:102]: Getting MX28 footprint position: (86891950, 63329855)
+[board_modifier.py:79]: Searching for optional ST28 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX29
+[board_modifier.py:102]: Getting MX29 footprint position: (105259669, 69518558)
+[board_modifier.py:79]: Searching for optional ST29 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX30
+[board_modifier.py:102]: Getting MX30 footprint position: (123792669, 74527658)
+[board_modifier.py:79]: Searching for optional ST30 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX31
+[board_modifier.py:102]: Getting MX31 footprint position: (192128705, 74485250)
+[board_modifier.py:79]: Searching for optional ST31 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX32
+[board_modifier.py:102]: Getting MX32 footprint position: (210662705, 69476050)
+[board_modifier.py:79]: Searching for optional ST32 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX33
+[board_modifier.py:102]: Getting MX33 footprint position: (229029705, 63288050)
+[board_modifier.py:79]: Searching for optional ST33 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX34
+[board_modifier.py:102]: Getting MX34 footprint position: (248391705, 64173050)
+[board_modifier.py:79]: Searching for optional ST34 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX35
+[board_modifier.py:102]: Getting MX35 footprint position: (268830705, 72722950)
+[board_modifier.py:79]: Searching for optional ST35 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX36
+[board_modifier.py:102]: Getting MX36 footprint position: (287694586, 70071953)
+[board_modifier.py:79]: Searching for optional ST36 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX37
+[board_modifier.py:102]: Getting MX37 footprint position: (25575268, 88978958)
+[board_modifier.py:79]: Searching for optional ST37 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX38
+[board_modifier.py:102]: Getting MX38 footprint position: (44440150, 91629955)
+[board_modifier.py:79]: Searching for optional ST38 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX39
+[board_modifier.py:102]: Getting MX39 footprint position: (64879028, 83079771)
+[board_modifier.py:79]: Searching for optional ST39 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX40
+[board_modifier.py:102]: Getting MX40 footprint position: (91282220, 91435449)
+[board_modifier.py:79]: Searching for optional ST40 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX41
+[board_modifier.py:102]: Getting MX41 footprint position: (110332220, 94912049)
+[board_modifier.py:79]: Searching for optional ST41 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX44
+[board_modifier.py:102]: Getting MX44 footprint position: (205581720, 94912049)
+[board_modifier.py:79]: Searching for optional ST44 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX45
+[board_modifier.py:102]: Getting MX45 footprint position: (224631720, 91435449)
+[board_modifier.py:79]: Searching for optional ST45 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX46
+[board_modifier.py:102]: Getting MX46 footprint position: (251043411, 83038050)
+[board_modifier.py:79]: Searching for optional ST46 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX47
+[board_modifier.py:102]: Getting MX47 footprint position: (271481530, 91587447)
+[board_modifier.py:79]: Searching for optional ST47 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX48
+[board_modifier.py:102]: Getting MX48 footprint position: (290345292, 88936554)
+[board_modifier.py:79]: Searching for optional ST48 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX43
+[board_modifier.py:102]: Getting MX43 footprint position: (186531594, 100174649)
+[board_modifier.py:79]: Searching for optional ST43 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:779]: Placing additional elements for MX42
+[board_modifier.py:102]: Getting MX42 footprint position: (129381720, 100174649)
+[board_modifier.py:79]: Searching for optional ST42 footprint in /Users/quark/Documents/GitHub/WaveTheory/PCB/WaveTheory.kicad_pcb
+[board_modifier.py:84]: Footprint not found
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX1 footprint position: (33528969, 32385058)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(30186146, 33177539), (30628716, 30028486)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX1:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(30628716, 30028486), (30109548, 29339527)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX1:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 290492ce-3a04-43d7-8348-9b971ecc7bb3 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX2 footprint position: (52393647, 35036074)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(49050824, 35828555), (49493394, 32679502)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX2:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D2:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(49493394, 32679502), (48974226, 31990543)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX2:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 308181a5-b3e2-4594-b0f8-6f0675dfa01e track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX3 footprint position: (72832569, 26486758)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(69489746, 27279239), (69932316, 24130186)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX3:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D3:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(69932316, 24130186), (69413148, 23441227)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX3:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 49568206-e657-423a-a142-378832112de0 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX4 footprint position: (92194047, 25600474)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(88851224, 26392955), (89293794, 23243902)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX4:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D4:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(89293794, 23243902), (88774626, 22554943)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX4:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of b7e4eb37-97b2-4505-af50-378f3b4ce3b8 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX5 footprint position: (110561669, 31789258)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(107218846, 32581739), (107661416, 29432686)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX5:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D5:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(107661416, 29432686), (107142248, 28743727)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX5:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of d128883b-e6d2-42b5-9301-a9047d8aac96 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX6 footprint position: (129094669, 36798558)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(125751846, 37591039), (126194416, 34441986)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX6:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D6:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(126194416, 34441986), (125675248, 33753027)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX6:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 919c9b98-c0db-4f7c-b364-b98f13ba6c62 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX7 footprint position: (186826411, 36756050)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(183831521, 38439239), (183388950, 35290185)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX7:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D7:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(183388950, 35290185), (182699991, 34771017)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX7:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 486cc057-9e08-4102-adf6-3e0df87945f4 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX8 footprint position: (205360411, 31746850)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(202365521, 33430039), (201922950, 30280985)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX8:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D8:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(201922950, 30280985), (201233991, 29761817)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX8:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 9e9f1403-52a3-4090-931b-cf98030b5409 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX9 footprint position: (223727411, 25558850)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(220732521, 27242039), (220289950, 24092985)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX9:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D9:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(220289950, 24092985), (219600991, 23573817)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX9:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 80d30448-7409-457e-a695-d6696be0a357 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX10 footprint position: (243089411, 26443850)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(240094521, 28127039), (239651950, 24977985)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX10:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D10:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(239651950, 24977985), (238962991, 24458817)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX10:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of f2c45afb-ab08-424c-b0e0-70fc6ae234a2 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX11 footprint position: (263528411, 34993750)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(260533521, 36676939), (260090950, 33527885)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX11:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D11:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(260090950, 33527885), (259401991, 33008717)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX11:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of f4ddffbd-67d6-4bf3-bd33-9e063b1256e8 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX12 footprint position: (282392292, 32342753)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(279397402, 34025942), (278954831, 30876888)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX12:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D12:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(278954831, 30876888), (278265872, 30357720)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX12:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of b92fd854-3734-436c-8d9a-b07ad74a1a88 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX13 footprint position: (30878131, 51249352)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(27535308, 52041833), (27977878, 48892780)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX13:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D13:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(27977878, 48892780), (27458710, 48203821)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX13:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 1c6c611c-c12f-4c5d-b7bd-67ec61bffac9 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX14 footprint position: (49742368, 53900958)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(46399545, 54693439), (46842115, 51544386)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX14:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D14:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(46842115, 51544386), (46322947, 50855427)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX14:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of c2737d2b-5bbe-4278-8b9b-b008f7d9a9c2 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX15 footprint position: (70181168, 45351258)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(66838345, 46143739), (67280915, 42994686)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX15:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D15:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(67280915, 42994686), (66761747, 42305727)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX15:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 932ff619-209f-4e54-ac44-4f40d125f2d0 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX16 footprint position: (89543069, 44465458)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(86200246, 45257939), (86642816, 42108886)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX16:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D16:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(86642816, 42108886), (86123648, 41419927)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX16:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 1d7c0821-51ae-46ed-9a90-926bf0716ac0 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX17 footprint position: (107910669, 50653758)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(104567846, 51446239), (105010416, 48297186)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX17:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D17:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(105010416, 48297186), (104491248, 47608227)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX17:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of bdda90ba-e164-4daa-ba2e-8cf7d5097dcd track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX18 footprint position: (126443596, 55662625)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(123100773, 56455106), (123543343, 53306053)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX18:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D18:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(123543343, 53306053), (123024175, 52617094)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX18:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of d1b6cf28-fc84-46df-87cb-cb4772a85bfd track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX19 footprint position: (189477530, 55620447)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(186482640, 57303636), (186040069, 54154582)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX19:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D19:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(186040069, 54154582), (185351110, 53635414)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX19:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of f2f5be0b-85f2-4a98-98cb-eeca2f6077a9 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX20 footprint position: (208011530, 50611247)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(205016640, 52294436), (204574069, 49145382)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX20:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D20:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(204574069, 49145382), (203885110, 48626214)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX20:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 4c6c5064-e0ad-46e7-92d3-ff47d1604a80 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX21 footprint position: (226378530, 44423247)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(223383640, 46106436), (222941069, 42957382)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX21:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D21:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(222941069, 42957382), (222252110, 42438214)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX21:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 50fec491-a025-4ea1-8f67-c94ea8a906d7 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX22 footprint position: (245740530, 45308247)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(242745640, 46991436), (242303069, 43842382)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX22:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D22:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(242303069, 43842382), (241614110, 43323214)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX22:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of c5bca2db-9f5d-4264-b407-cbdf5f732613 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX23 footprint position: (266179530, 53858147)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(263184640, 55541336), (262742069, 52392282)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX23:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D23:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(262742069, 52392282), (262053110, 51873114)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX23:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of e4146577-f962-484a-a635-242cc2c676b6 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX24 footprint position: (285043411, 51207150)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(282048521, 52890339), (281605950, 49741285)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX24:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D24:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(281605950, 49741285), (280916991, 49222117)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX24:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of fa62be03-6372-413b-b3fc-943f218706d3 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX25 footprint position: (28226731, 70113852)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(24883908, 70906333), (25326478, 67757280)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX25:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D25:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(25326478, 67757280), (24807310, 67068321)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX25:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 9e09423b-bc21-4823-9e7b-5be8aa48151f track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX26 footprint position: (47091269, 72765558)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(43748446, 73558039), (44191016, 70408986)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX26:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D26:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(44191016, 70408986), (43671848, 69720027)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX26:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of ceae2ade-3027-4073-879d-9e071bf4077d track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX27 footprint position: (67530068, 64216058)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(64187245, 65008539), (64629815, 61859486)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX27:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D27:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(64629815, 61859486), (64110647, 61170527)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX27:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 35a69809-c27c-45fb-99d1-d7343e5ce4e8 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX28 footprint position: (86891950, 63329855)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(83549127, 64122336), (83991697, 60973283)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX28:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D28:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(83991697, 60973283), (83472529, 60284324)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX28:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of c9ea4d0a-a372-4424-8c39-45559398f807 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX29 footprint position: (105259669, 69518558)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(101916846, 70311039), (102359416, 67161986)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX29:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D29:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(102359416, 67161986), (101840248, 66473027)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX29:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 61435a83-5724-4596-86ee-4293ae3f5be5 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX30 footprint position: (123792669, 74527658)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(120449846, 75320139), (120892416, 72171086)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX30:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D30:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(120892416, 72171086), (120373248, 71482127)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX30:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of bab7b41a-ea7e-4dd4-806c-938751e1938c track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX31 footprint position: (192128705, 74485250)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(189133815, 76168439), (188691244, 73019385)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX31:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D31:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(188691244, 73019385), (188002285, 72500217)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX31:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 935de48d-d35d-4110-8be0-45a42745eb1f track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX32 footprint position: (210662705, 69476050)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(207667815, 71159239), (207225244, 68010185)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX32:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D32:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(207225244, 68010185), (206536285, 67491017)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX32:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 5dfc3c81-742a-4387-99b4-bcf7a472cf6d track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX33 footprint position: (229029705, 63288050)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(226034815, 64971239), (225592244, 61822185)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX33:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D33:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(225592244, 61822185), (224903285, 61303017)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX33:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of a3342e2e-b229-464c-8996-d1315baf1e0c track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX34 footprint position: (248391705, 64173050)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(245396815, 65856239), (244954244, 62707185)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX34:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D34:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(244954244, 62707185), (244265285, 62188017)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX34:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of a62f3101-9eb9-44f4-91e4-7c17f0cee084 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX35 footprint position: (268830705, 72722950)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(265835815, 74406139), (265393244, 71257085)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX35:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D35:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(265393244, 71257085), (264704285, 70737917)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX35:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 3ba464c9-2ff7-47b3-a277-4feefe0e907f track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX36 footprint position: (287694586, 70071953)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(284699696, 71755142), (284257125, 68606088)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX36:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D36:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(284257125, 68606088), (283568166, 68086920)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX36:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 5f99d050-4c0c-4105-a9b2-0e47a342e5a8 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX37 footprint position: (25575268, 88978958)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(22232445, 89771439), (22675015, 86622386)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX37:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D37:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(22675015, 86622386), (22155847, 85933427)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX37:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 9d964d8a-3fad-4916-87d8-9304ecc5f2c7 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX38 footprint position: (44440150, 91629955)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(41097327, 92422436), (41539897, 89273383)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX38:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D38:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(41539897, 89273383), (41020729, 88584424)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX38:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 6344a051-ad82-40c9-9397-43766cf9315f track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at 8.0 degree angle
+[board_modifier.py:102]: Getting MX39 footprint position: (64879028, 83079771)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(61536205, 83872252), (61978775, 80723199)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX39:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D39:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(61978775, 80723199), (61459607, 80034240)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX39:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 5c7ba22e-4714-4e2b-bd2b-39f0f0c5a07a track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX40 footprint position: (91282220, 91435449)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(88082221, 92685449), (88082221, 89505448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX40:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D40:2
+[board_modifier.py:404]: Track collide with another track: f5ddbb7a-0fe6-4da9-9cab-d7dedbebfb0c
+[board_modifier.py:404]: Track collide with another track: b5bc1b6b-1aff-401e-ba46-26fe4a773763
+[board_modifier.py:469]: Could not add track segment due to detected collision
+[board_modifier.py:459]: Adding track segment (B.Cu): [(88082221, 89505448), (87472221, 88895448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX40:1
+[board_modifier.py:404]: Track collide with another track: f5ddbb7a-0fe6-4da9-9cab-d7dedbebfb0c
+[board_modifier.py:404]: Track collide with another track: b5bc1b6b-1aff-401e-ba46-26fe4a773763
+[board_modifier.py:469]: Could not add track segment due to detected collision
+[board_modifier.py:459]: Adding track segment (B.Cu): [(88082221, 92685449), (88082221, 89505448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX40:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D40:2
+[board_modifier.py:404]: Track collide with another track: f5ddbb7a-0fe6-4da9-9cab-d7dedbebfb0c
+[board_modifier.py:404]: Track collide with another track: b5bc1b6b-1aff-401e-ba46-26fe4a773763
+[board_modifier.py:469]: Could not add track segment due to detected collision
+[board_modifier.py:459]: Adding track segment (B.Cu): [(88082221, 89505448), (87472221, 88895448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX40:1
+[board_modifier.py:404]: Track collide with another track: f5ddbb7a-0fe6-4da9-9cab-d7dedbebfb0c
+[board_modifier.py:404]: Track collide with another track: b5bc1b6b-1aff-401e-ba46-26fe4a773763
+[board_modifier.py:469]: Could not add track segment due to detected collision
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX41 footprint position: (110332220, 94912049)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(107132221, 96162049), (107132221, 92982048)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX41:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D41:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(107132221, 92982048), (106522221, 92372048)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX41:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 8a740d6e-4023-41f5-99ed-316d4ed95e2c track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX44 footprint position: (205581720, 94912049)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(202381721, 96162049), (202381721, 92982048)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX44:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D44:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(202381721, 92982048), (201771721, 92372048)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX44:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 0eee7c7d-5d56-465c-8a32-d9e4348774c4 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX45 footprint position: (224631720, 91435449)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(221431721, 92685449), (221431721, 89505448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX45:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D45:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(221431721, 89505448), (220821721, 88895448)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX45:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 02b69507-257d-4d8d-bf01-4e2c72f63995 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX46 footprint position: (251043411, 83038050)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(248048521, 84721239), (247605950, 81572185)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX46:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D47:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(247605950, 81572185), (246916991, 81053017)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX46:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 0a1eacab-9e0b-4849-8f04-ec5e6ab7d0f2 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX47 footprint position: (271481530, 91587447)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(268486640, 93270636), (268044069, 90121582)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX47:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D48:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(268044069, 90121582), (267355110, 89602414)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX47:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of 3da37590-ebb7-40a9-893b-4d91b0f4862c track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[key_placer.py:387]: Routing at -8.0 degree angle
+[board_modifier.py:102]: Getting MX48 footprint position: (290345292, 88936554)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(287350402, 90619743), (286907831, 87470689)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX48:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D49:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(286907831, 87470689), (286218872, 86951521)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX48:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of eca22a5c-5507-4626-8218-8c28314c8812 track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX43 footprint position: (186531594, 100174649)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(183331595, 101424649), (183331595, 98244648)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX43:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D43:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(183331595, 98244648), (182721595, 97634648)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX43:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of b22424c7-cec5-4fdc-8027-e130d5ac5a4d track
+[board_modifier.py:464]: Track added
+[key_placer.py:385]: Using template replication method
+[board_modifier.py:102]: Getting MX42 footprint position: (129381720, 100174649)
+[board_modifier.py:459]: Adding track segment (B.Cu): [(126181721, 101424649), (126181721, 98244648)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX42:1
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad D42:2
+[board_modifier.py:464]: Track added
+[board_modifier.py:459]: Adding track segment (B.Cu): [(126181721, 98244648), (125571721, 97634648)]
+[board_modifier.py:355]: Track collision ignored, track starts or ends in pad MX42:1
+[board_modifier.py:381]: Track collision ignored, track starts or ends at the end of d6dd93c0-325c-49cf-bbb5-cb549135a342 track
+[board_modifier.py:464]: Track added
+[key_placer.py:462]: Removing dangling tracks
